@@ -16,7 +16,8 @@ use \yii\widgets\ActiveForm;
         //->textInput(['type' => 'date'])
         ->widget(\yii\jui\DatePicker::class, [
                 'language' => 'en'
-        ])
+        ]);
+
 
     ?>
     <?= $form->field($model, 'description')->textarea(['rows' => 6]) ?>

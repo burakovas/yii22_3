@@ -42,9 +42,8 @@ AppAsset::register($this);
                         ['label' => 'ru', 'url' => ['site/lang', 'lang' => 'ru']],
                         ['label' => 'en', 'url' => ['site/lang', 'lang' => 'en']],
 ]],
-            ['label' => 'Home', 'url' => ['/site/index']],
-            ['label' => 'TaskList', 'url' => ['/task']],
-            ['label' => 'User', 'url' => ['/user']],
+            ['label' => 'All Tasks', 'url' => ['/task']],
+            ['label' => 'Tasks of User', 'url' => ['/user']],
             ['label' => 'About', 'url' => ['/site/about']],
             ['label' => 'Contact', 'url' => ['/site/contact']],
             Yii::$app->user->isGuest ? (
