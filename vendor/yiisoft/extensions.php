@@ -93,4 +93,13 @@ return array (
       '@yii/imagine' => $vendorDir . '/yiisoft/yii2-imagine/src',
     ),
   ),
+  'sonko-dmitry/yii2-telegram-bot-api' => 
+  array (
+    'name' => 'sonko-dmitry/yii2-telegram-bot-api',
+    'version' => '1.0.0.0',
+    'alias' => 
+    array (
+      '@SonkoDmitry/Yii/TelegramBot' => $vendorDir . '/sonko-dmitry/yii2-telegram-bot-api/src',
+    ),
+  ),
 );

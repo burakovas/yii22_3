@@ -52,6 +52,10 @@ class ComposerStaticInitf106bd575cdd7b13d88480d751ae4020
         array (
             'Webmozart\\Assert\\' => 17,
         ),
+        'T' => 
+        array (
+            'TelegramBot\\Api\\' => 16,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Mbstring\\' => 26,
@@ -66,6 +70,7 @@ class ComposerStaticInitf106bd575cdd7b13d88480d751ae4020
             'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
             'Symfony\\Component\\BrowserKit\\' => 29,
+            'SonkoDmitry\\Yii\\TelegramBot\\' => 28,
         ),
         'R' => 
         array (
@@ -168,6 +173,10 @@ class ComposerStaticInitf106bd575cdd7b13d88480d751ae4020
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
         ),
+        'TelegramBot\\Api\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/telegram-bot/api/src',
+        ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
@@ -215,6 +224,10 @@ class ComposerStaticInitf106bd575cdd7b13d88480d751ae4020
         'Symfony\\Component\\BrowserKit\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/browser-kit',
+        ),
+        'SonkoDmitry\\Yii\\TelegramBot\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/sonko-dmitry/yii2-telegram-bot-api/src',
         ),
         'React\\Stream\\' => 
         array (
