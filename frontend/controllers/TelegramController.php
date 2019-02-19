@@ -34,10 +34,13 @@ class TelegramController extends Controller
 
             return $this->render('receive', ['messages' => $messages]);
     }
+
     public function actionSend(){
 
         /** var Component $bot */
-
+        // для всех кто подписан на \common\models\tables\TelegramSubscribe::CHANNEL_PROJECT_CREATE
+        // отправить сообщения что создан новый проект
+        
         $bot = \Yii::$app->bot;
         $bot->sendMessage(171025169, 'News!!!');
     }

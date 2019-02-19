@@ -9,7 +9,7 @@ $params = array_merge(
 return [
     'id' => 'app-console',
     'basePath' => dirname(__DIR__),
-    'bootstrap' => ['log'],
+    'bootstrap' => ['log', 'bootstrap'],
     'controllerNamespace' => 'console\controllers',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
@@ -22,6 +22,9 @@ return [
           ],
     ],
     'components' => [
+        'bootstrap' => [
+            'class' => '\common\components\Bootstrap',
+        ],
         'log' => [
             'targets' => [
                 [

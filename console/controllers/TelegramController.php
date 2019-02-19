@@ -8,6 +8,7 @@
 
 namespace console\controllers;
 
+use common\models\tables\Projects;
 use common\models\TelegramOffset;
 use common\models\tables\TelegramSubscribe;
 use SonkoDmitry\Yii\TelegramBot\Component;
@@ -66,6 +67,7 @@ class TelegramController extends Controller
     private function processCommand(Message $message){
         $params = explode(" ", $message->getText());
         $command = $params[0];
+        $param_1 = $params[1];
         $response = "Unknown command";
         switch ($command){
             case '/help':
@@ -88,7 +90,19 @@ class TelegramController extends Controller
                 }
                 break;
 
+            case '/project_create':
+                $model = new Projects([
+                    'name' => $param_1,
+                ]);
+
+                if($model->save()){
+                    $response = "Проект успешно создан!";
+                } else {
+                    $response = "error проект не создан";
+                }
+                break;
         }
         $this->bot->sendMessage($message->getFrom()->getId(), $response);
     }
+
 }

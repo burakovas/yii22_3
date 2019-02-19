@@ -5,22 +5,20 @@ namespace common\models\tables;
 use Yii;
 
 /**
- * This is the model class for table "telegram_subscribe".
+ * This is the model class for table "projects".
  *
  * @property int $id
- * @property int $chat_id
- * @property string $channel
+ * @property string $name
+ * @property string $description
  */
-class TelegramSubscribe extends \yii\db\ActiveRecord
+class Projects extends \yii\db\ActiveRecord
 {
-    const CHANNEL_PROJECT_CREATE = 'project_create';
-
     /**
      * {@inheritdoc}
      */
     public static function tableName()
     {
-        return 'telegram_subscribe';
+        return 'projects';
     }
 
     /**
@@ -29,8 +27,7 @@ class TelegramSubscribe extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['chat_id'], 'integer'],
-            [['channel'], 'string', 'max' => 255],
+            [['name', 'description'], 'string', 'max' => 255],
         ];
     }
 
@@ -41,10 +38,11 @@ class TelegramSubscribe extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'chat_id' => 'Chat ID',
-            'channel' => 'Channel',
+            'name' => 'Name',
+            'description' => 'Description',
         ];
     }
+
 
 
 }

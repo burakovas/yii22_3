@@ -2,80 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d170c99-b21b-4421-94ab-0279348e0358" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/controllers/TelegramController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/controllers/TelegramController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/views/telegram/receive.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a7f41975-c5e9-4107-80e6-a2fbf89b3cce.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a7f41975-c5e9-4107-80e6-a2fbf89b3cce.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/yii22_3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yii22_3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/config/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/layouts/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/task/one_from_lesson.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/task/one_test_canDel.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bin/codecept" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bin/codecept" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/codecept" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/codecept" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Lib/Driver/Db.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Lib/Driver/Db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/RunCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/RunCest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/DummyClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/DummyClass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleCept.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleCept.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleCest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleWithDataProviderArrayCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleWithDataProviderArrayCest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleWithDataProviderYieldGeneratorCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleWithDataProviderYieldGeneratorCest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleWithNoClassCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleWithNoClassCest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/avatar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/avatar.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/controllers.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/controllers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/data.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/data.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/glue.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/glue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/basehref.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/basehref.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/button.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/button.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/button_in_link.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/button_in_link.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/checkbox.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/checkbox.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/checkbox_default_value.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/checkbox_default_value.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/complex.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/complex.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/empty.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/empty.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/field.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/field.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/file.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/file.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/hidden.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/hidden.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/multiple_matches.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/multiple_matches.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/select.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/select.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/strict_selectors.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/strict_selectors.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/textarea.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/textarea.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/iframe.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/iframe.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/info.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/info.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/codeception.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/codeception.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/codeception_extended.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/codeception_extended.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_data/DummyClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_data/DummyClass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_data/dump.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_data/dump.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/DumbHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/DumbHelper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/dummy.suite.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/dummy.suite.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/dummy/AnotherTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/dummy/AnotherTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/dummy/FileExistsCept.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/dummy/FileExistsCept.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/dummy/_bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/dummy/_bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/dump.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/dump.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/dumps/postgres-hhvm.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/dumps/postgres-hhvm.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/dumps/postgres.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/dumps/postgres.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/dumps/sqlite-54.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/dumps/sqlite-54.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/dumps/sqlite.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/dumps/sqlite.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/rest/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/rest/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/rest/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/rest/server.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/services/UserModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/services/UserModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/services/UserService.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/services/UserService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/xml/layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/xml/layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/yiisoft/extensions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/yiisoft/extensions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii" beforeDir="false" afterPath="$PROJECT_DIR$/yii" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yii_test" beforeDir="false" afterPath="$PROJECT_DIR$/yii_test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/controllers/TelegramController.php" beforeDir="false" afterPath="$PROJECT_DIR$/console/controllers/TelegramController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/controllers/TelegramController.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/controllers/TelegramController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,28 +48,27 @@
         <item name="10.8.0.1" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="task_adv: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="telegram_offset: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="projects: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="10.8.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="task_adv: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tasks: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="10.8.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="task_adv: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="telegram_subscribe: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/controllers/TelegramController.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/console/controllers/TelegramController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -152,7 +81,11 @@
         <option value="$PROJECT_DIR$/common/models/TelegramOffset.php" />
         <option value="$PROJECT_DIR$/console/migrations/m190218_084736_create_telegram_subscript_table.php" />
         <option value="$PROJECT_DIR$/common/models/tables/TelegramSubscribe.php" />
+        <option value="$PROJECT_DIR$/console/migrations/m190218_111130_add_project_id_column_to_tasks.php" />
+        <option value="$PROJECT_DIR$/console/migrations/m190218_104813_create_projects_table.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/console/controllers/TelegramController.php" />
+        <option value="$PROJECT_DIR$/frontend/controllers/TelegramController.php" />
       </list>
     </option>
   </component>
@@ -251,10 +184,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="59" />
+    <option name="x" value="57" />
     <option name="y" value="23" />
-    <option name="width" value="1204" />
-    <option name="height" value="801" />
+    <option name="width" value="1764" />
+    <option name="height" value="996" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -264,6 +197,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,34 +205,16 @@
               <item name="yii22_3" type="b2602c69:ProjectViewProjectNode" />
               <item name="yii22_3" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="yii22_3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yii22_3" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yii22_3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yii22_3" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yii22_3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yii22_3" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="tables" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -332,17 +248,18 @@
       <option name="presentableId" value="Default" />
       <updated>1550234710662</updated>
       <workItem from="1550234711985" duration="501000" />
-      <workItem from="1550471707573" duration="7774000" />
+      <workItem from="1550471707573" duration="10096000" />
+      <workItem from="1550491164028" duration="595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8275000" />
+    <option name="totallyTimeSpent" value="11192000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="23" width="1204" height="801" extended-state="0" />
+    <frame x="57" y="23" width="1764" height="996" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2555938" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2746806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -355,12 +272,13 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32964602" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.25774336" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32994187" />
+      <window_info anchor="right" id="Database" order="3" weight="0.22241579" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,15 +305,12 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a7f41975-c5e9-4107-80e6-a2fbf89b3cce/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/console/migrations/m190218_084736_create_telegram_subscript_table.php">
+    <entry file="file://$PROJECT_DIR$/common/models/TelegramOffset.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        <state relative-caret-position="270">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/console/migrations/m190216_121109_create_telegram_offset_table.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/console/migrations/m190212_183152_create_chat_table.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -404,21 +319,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/console/migrations/m190216_121109_create_telegram_offset_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/migrations/m190218_084736_create_telegram_subscript_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/console/migrations/m190129_180658_add_lang_column_to_users.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/migrations/m181225_115602_add_foreignkey.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/console/migrations/m190122_042020_create_comments_table.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/TelegramOffset.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+    <entry file="das://a7f41975-c5e9-4107-80e6-a2fbf89b3cce/schema/task_adv/table/projects">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/controllers/TelegramController.php">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/console/migrations/m190218_111130_add_project_id_column_to_tasks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/migrations/m190114_182259_add_email_column_to_users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/migrations/m190218_104813_create_projects_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a7f41975-c5e9-4107-80e6-a2fbf89b3cce/schema/task_adv/table/tasks">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a7f41975-c5e9-4107-80e6-a2fbf89b3cce/schema/task_adv/table/telegram_subscribe">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/models/tables/TelegramSubscribe.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -427,10 +387,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/tables/Projects.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/controllers/TelegramController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/console/controllers/TelegramController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        <state relative-caret-position="346">
+          <caret line="83" column="32" lean-forward="true" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="95" />
+          <folding>
+            <element signature="e#125#159#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
