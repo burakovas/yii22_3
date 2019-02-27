@@ -2,10 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d170c99-b21b-4421-94ab-0279348e0358" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a7f41975-c5e9-4107-80e6-a2fbf89b3cce.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a7f41975-c5e9-4107-80e6-a2fbf89b3cce.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console/controllers/TelegramController.php" beforeDir="false" afterPath="$PROJECT_DIR$/console/controllers/TelegramController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/controllers/TelegramController.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/controllers/TelegramController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/components/Bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/config/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/controllers/RtasksController.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/controllers/RtasksController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bin/codecept" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bin/codecept" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Lib/Driver/Db.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Lib/Driver/Db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/RunCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/RunCest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/DummyClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/DummyClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleCept.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleCept.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleCest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleWithDataProviderArrayCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleWithDataProviderArrayCest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleWithDataProviderYieldGeneratorCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleWithDataProviderYieldGeneratorCest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleWithNoClassCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/SimpleWithNoClassCest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/avatar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/avatar.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/controllers.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/controllers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/data.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/glue.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/glue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/basehref.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/basehref.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/button.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/button.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/button_in_link.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/button_in_link.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/checkbox.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/checkbox.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/checkbox_default_value.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/checkbox_default_value.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/complex.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/complex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/empty.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/empty.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/field.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/field.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/file.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/file.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/hidden.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/hidden.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/multiple_matches.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/multiple_matches.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/select.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/select.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/strict_selectors.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/strict_selectors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/textarea.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/form/textarea.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/iframe.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/iframe.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/info.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/info.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/app/view/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/codeception.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/codeception.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/codeception_extended.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/codeception_extended.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_data/DummyClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_data/DummyClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_data/dump.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_data/dump.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/DumbHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/_support/DumbHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/dummy.suite.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/dummy.suite.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/dummy/AnotherTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/dummy/AnotherTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/dummy/FileExistsCept.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/dummy/FileExistsCept.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/dummy/_bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/claypit/tests/dummy/_bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/dump.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/dump.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/dumps/postgres-hhvm.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/dumps/postgres-hhvm.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/dumps/postgres.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/dumps/postgres.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/dumps/sqlite-54.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/dumps/sqlite-54.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/dumps/sqlite.sql" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/dumps/sqlite.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/rest/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/rest/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/rest/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/rest/server.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/services/UserModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/services/UserModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/services/UserService.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/services/UserService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/data/xml/layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/data/xml/layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii" beforeDir="false" afterPath="$PROJECT_DIR$/yii" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii_test" beforeDir="false" afterPath="$PROJECT_DIR$/yii_test" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +125,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -184,10 +241,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="57" />
+    <option name="x" value="96" />
     <option name="y" value="23" />
-    <option name="width" value="1764" />
-    <option name="height" value="996" />
+    <option name="width" value="1511" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -197,6 +254,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,11 +262,20 @@
               <item name="yii22_3" type="b2602c69:ProjectViewProjectNode" />
               <item name="yii22_3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="yii22_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii22_3" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yii22_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii22_3" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -251,16 +318,19 @@
       <workItem from="1550471707573" duration="10096000" />
       <workItem from="1550491164028" duration="595000" />
       <workItem from="1550585961167" duration="4000" />
+      <workItem from="1550838817594" duration="306000" />
+      <workItem from="1550839350030" duration="7000" />
+      <workItem from="1550839360698" duration="58000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11196000" />
+    <option name="totallyTimeSpent" value="11567000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="23" width="1764" height="996" extended-state="0" />
+    <frame x="96" y="23" width="1511" height="1038" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2775842" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33832538" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -405,6 +475,40 @@
           <folding>
             <element signature="e#125#159#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/config/main.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/config/params.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/controllers/RtasksController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#126#157#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/config/main-local.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/config/main-local.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/config/main.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/config/main-local.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>

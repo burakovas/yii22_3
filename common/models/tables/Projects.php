@@ -3,6 +3,7 @@
 namespace common\models\tables;
 
 use Yii;
+use yii\helpers\ArrayHelper;
 
 /**
  * This is the model class for table "projects".
@@ -43,6 +44,14 @@ class Projects extends \yii\db\ActiveRecord
         ];
     }
 
+    static function getProjectsList(){
 
+        $projects = static::find()
+            ->select(['id', 'name'])
+            ->asArray()
+            ->all();
+
+        return $projectsList = ArrayHelper::map($projects,'id', 'name');
+    }
 
 }

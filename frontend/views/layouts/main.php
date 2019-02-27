@@ -44,9 +44,9 @@ AppAsset::register($this);
                         ['label' => 'en', 'url' => ['site/lang', 'lang' => 'en']],
 ]],
             ['label' => 'All Tasks', 'url' => ['/task']],
-            ['label' => 'Tasks of User', 'url' => ['/user']],
-            ['label' => 'About', 'url' => ['/site/about']],
-            ['label' => 'Contact', 'url' => ['/site/contact']],
+            ['label' => 'Tasks of User(' . Yii::$app->user->identity->username . ')', 'url' => ['/user']],
+            ['label' => 'Projects', 'url' => ['/site']],
+            ['label' => 'reserved', 'url' => ['/site/contact']],
             Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/site/login']]
             ) : (

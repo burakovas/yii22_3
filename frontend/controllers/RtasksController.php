@@ -11,7 +11,7 @@ namespace frontend\controllers;
 use common\models\tables\Tasks;
 use yii\rest\ActiveController;
 
-class RtaskController extends ActiveController
+class RtasksController extends ActiveController
 {
     public $modelClass = Tasks::class;
 

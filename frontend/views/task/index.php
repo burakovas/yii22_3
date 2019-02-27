@@ -13,7 +13,7 @@ $this->title = 'MyTask';
 ?>
 
 <p>
-    <?= Html::a('Create Tasks', ['create'], ['class' => 'btn btn-default']) ?>
+    <?= Html::a('Create Task', ['create'], ['class' => 'btn btn-default']) ?>
 
     <?php /* echo  $this->render('_search', ['model' => $searchModel]); */
     ?>

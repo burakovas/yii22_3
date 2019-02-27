@@ -40,17 +40,21 @@ class TaskController extends Controller
      */
     public function actionIndex()
     {
+        /* проверка языка
+        if (!Yii::$app->user->isGuest) {
+        $session = Yii::$app->session;
+        $user = Users::findOne(\Yii::$app->user->id);
+        $session->set('lang', $user->lang);
+        } */
+
         $tasks = Tasks::find()->all();
         $searchModel = new TasksSearch();
-
 
         return $this->render('index', [
             'tasks' => $tasks,
             'searchModel' => $searchModel,
             'userId' => Yii::$app->user->id,
-
         ]);
-
     }
 
     /**
@@ -78,9 +82,6 @@ class TaskController extends Controller
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
         }
-
-
-
         return $this->render('create', [
             'model' => $model,
             'usersList' => Users::getUsersList(),
@@ -93,6 +94,7 @@ class TaskController extends Controller
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['index']);
         }
+
 
         return $this->render('one', [
             'model' => $model,

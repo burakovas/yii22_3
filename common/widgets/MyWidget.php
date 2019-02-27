@@ -16,7 +16,11 @@ class MyWidget extends Widget
     public $id;
     public $name = "Имя";
     public $date = "Дата завершения";
-    public $description = "Пояснение";
+    public $responsible_id = "Исполнитель";
+    public $created_at = "Дата постановки";
+    public $admin_id = "Администратор";
+    public $ready_date = "Дата выполения";
+    public $ready = "Не выполнено";
 
     public function run(){
 
@@ -25,8 +29,11 @@ class MyWidget extends Widget
             'id' => $this->id,
             'name' => $this->name,
             'date' => $this->date,
-            'description' => $this->description
-
+            'responsible_id' => $this->responsible_id,
+            'created_at' => $this->created_at,
+            'admin_id' => $this->admin_id,
+            'ready_date' => $this->ready_date,
+            'ready' => $this->ready
         ]);
 
     }

@@ -5,3 +5,12 @@
     border-radius: 6px; /* закругление */
     margin: 5px; /* рамка вокруг виджета */
     width: 33%; /* ширина виджета */
+}
+.brd_red {
+    border: 4px red; /* Параметры границы */
+    background: lightpink; /* Цвет фона */
+    padding: 6px; /* Поля вокруг текста */
+    border-radius: 6px; /* закругление */
+    margin: 5px; /* рамка вокруг виджета */
+    width: 33%; /* ширина виджета */
+}

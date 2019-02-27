@@ -7,4 +7,7 @@ RewriteEngine on
 RewriteCond %{REQUIEST_FILENAME} !-f
 RewriteCond %{REQUIEST_FILENAME} !-d
 
+RewriteCond %{REQUEST_METHOD} (PUT|POST|GET|DELETE)
+
 RewriteRule . index.php
+

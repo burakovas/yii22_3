@@ -4,6 +4,7 @@ use \yii\helpers\Html;
 use \yii\helpers\Url;
 use \yii\widgets\ActiveForm;
 
+
 /* @var $this yii\web\View */
 /* @var $model app\models\tables\Tasks */
 /* @var $form yii\widgets\ActiveForm */
@@ -13,24 +14,21 @@ use \yii\widgets\ActiveForm;
     <?php $form = ActiveForm::begin(['action' => Url::to(['task/one', 'id' => $model->id])]);?>
     <?= $form->field($model, 'name')->textInput(['maxlength' => true]) ?>
     <?= $form->field($model, 'date')
-        //->textInput(['type' => 'date'])
-        ->widget(\yii\jui\DatePicker::class, [
-                'language' => 'en'
-        ]);
-
-
+        ->textInput(['type' => 'date'])
+        //->widget(\yii\jui\DatePicker::class, [
+        //        'language' => 'en'
+        //]);
     ?>
     <?= $form->field($model, 'description')->textarea(['rows' => 6]) ?>
     <?= $form->field($model, 'responsible_id')->dropDownList(\common\models\tables\Users::getUsersList()) ?>
+    <?= $form->field($model, 'project_id')->dropDownList(\common\models\tables\Projects::getProjectsList()) ?>
     <?= Html::submitButton('Save') ?>
     <?php ActiveForm::end(); ?>
-<br>
+    <br>
     <?php $form = ActiveForm::begin(['action' => Url::to(['file/index', 'id' => $model->id])]);?>
     <?= Html::submitButton('Add Comment') ?>
     <?php ActiveForm::end(); ?>
-
     <br>
-
     <div class="comment-history">
         <?php $comments = \common\models\tables\Comments::find()
             ->where(['task_id' => $model->id])

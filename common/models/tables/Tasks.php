@@ -14,6 +14,13 @@ use yii\db\Expression;
  * @property string $date
  * @property string $description
  * @property int $responsible_id
+ * @property string $created_at
+ * @property string $updated_at
+ * @property int $project_id
+ * @property int $admin_id
+ * @property string $ready_date
+ * @property tinyint $ready
+ *
  *
  * @property string $user
  */
@@ -49,6 +56,7 @@ class Tasks extends \yii\db\ActiveRecord
             [['date'], 'safe'],
             [['description'], 'string'],
             [['responsible_id'], 'integer'],
+            [['project_id'], 'integer'],
             [['name'], 'string', 'max' => 255],
         ];
     }
@@ -60,10 +68,11 @@ class Tasks extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'name' => 'name', //Yii::t('main', 'task_name'),
-            'date' => 'Date',
-            'description' => 'description', //Yii::t('main', 'description'),
-            'responsible_id' => 'Responsible ID',
+            'name' => 'Task name', //Yii::t('main', 'task_name'),
+            'date' => 'DeadLine',
+            'description' => 'Description', //Yii::t('main', 'description'),
+            'responsible_id' => 'Responsible',
+            'project_id' => 'Project',
         ];
     }
 
