@@ -4,11 +4,13 @@
 \common\assets\MyWidgetAsset::register($this);
 
 $today = date("Y-m-d");
- if($today > $date) {
-     echo \yii\helpers\Html::beginTag('div', ['class' => 'brd_red']);
-        } else {
+if($today > $date)
+    {
+        echo \yii\helpers\Html::beginTag('div', ['class' => 'brd_red']);
+    } else
+        {
             echo \yii\helpers\Html::beginTag('div', ['class' => 'brd']);
-            }
+        }
 
 
 

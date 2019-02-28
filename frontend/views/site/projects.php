@@ -20,6 +20,7 @@
 
 </style>
 
+
 <a href="/site/project?id=<?= $model->id ?>">
 
 <div class="mydiv">

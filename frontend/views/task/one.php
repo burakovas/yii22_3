@@ -30,18 +30,18 @@ use \yii\widgets\ActiveForm;
     <?php ActiveForm::end(); ?>
     <br>
     <div class="comment-history">
-        <?php $comments = \common\models\tables\Comments::find()
-            ->where(['task_id' => $model->id])
-            ->all();
+    <?php $comments = \common\models\tables\Comments::find()
+        ->where(['task_id' => $model->id])
+        ->all();
+    ?>
+
+    <?php foreach ($comments as $comment): ?>
+        <p><strong><?=\common\models\tables\Users::getUserName($comment->responsible_id)?></strong>: <?php echo $comment->description ?></p>
+
+    <?php if($comment->file_name != null){
+            echo Html::img('/img/small/' . $comment->file_name, ['class' => 'img-thumbnail']);
+        }
         ?>
-
-        <?php foreach ($comments as $comment): ?>
-            <p><strong><?=\common\models\tables\Users::getUserName($comment->responsible_id)?></strong>: <?php echo $comment->description ?></p>
-
-        <?php if($comment->file_name != null){
-                echo Html::img('/img/small/' . $comment->file_name, ['class' => 'img-thumbnail']);
-            }
-            ?>
 
         <?php endforeach; ?>
     </div>

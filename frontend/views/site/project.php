@@ -16,8 +16,14 @@ use \yii\widgets\ActiveForm;
     $form = ActiveForm ::begin(['action' => Url::to(['site/project', 'id' => $model->id])]);?>
     <?= $form->field($model, 'name')->textInput(['maxlength' => true]) ?>
     <?= $form->field($model, 'description')->textarea(['rows' => 6]) ?>
-    <?= Html::submitButton('Save') ?>
-    <?= Html::a('Delete Project', ['delete'], ['class' => 'btn btn-default']) ?>
+    <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>
+    <?= Html::a(Yii::t('app', 'Delete'), ['delete', 'id' => $model->id], [
+    'class' => 'btn btn-danger',
+    'data' => [
+        'confirm' => Yii::t('app', 'Are you sure you want to delete this item?'),
+        'method' => 'post',
+    ],
+]) ?>
     <?php ActiveForm::end();
 
     $tasks = \common\models\tables\Tasks::find()

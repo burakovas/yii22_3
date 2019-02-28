@@ -46,7 +46,7 @@ AppAsset::register($this);
             ['label' => 'All Tasks', 'url' => ['/task']],
             ['label' => 'Tasks of User(' . Yii::$app->user->identity->username . ')', 'url' => ['/user']],
             ['label' => 'Projects', 'url' => ['/site']],
-            ['label' => 'reserved', 'url' => ['/site/contact']],
+            ['label' => 'CRUD Projects(for admin)', 'url' => ['/projects']],
             Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/site/login']]
             ) : (

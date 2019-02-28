@@ -2,11 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d170c99-b21b-4421-94ab-0279348e0358" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/views/site/project.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/views/site/projects.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/views/user/view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/components/Bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/tables/Projects.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/tables/Projects.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/tables/Tasks.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/tables/Tasks.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/widgets/MyWidget.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/widgets/MyWidget.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/widgets/views/my.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/widgets/views/my.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/widgets/views/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/config/main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/controllers/RtasksController.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/controllers/RtasksController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/web/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/controllers/SiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/controllers/TaskController.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/controllers/TaskController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/layouts/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/site/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/task/one.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/task/one.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/task/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/task/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/user/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/views/user/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/views/user/index_d.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/htaccess/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/web/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/web/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/bin/codecept" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bin/codecept" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Lib/Driver/Db.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/src/Codeception/Lib/Driver/Db.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/RunCest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/cli/RunCest.php" afterDir="false" />
@@ -125,7 +141,17 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/widgets/views/my.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -143,6 +169,7 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/console/controllers/TelegramController.php" />
         <option value="$PROJECT_DIR$/frontend/controllers/TelegramController.php" />
+        <option value="$PROJECT_DIR$/common/widgets/views/my.php" />
       </list>
     </option>
   </component>
@@ -254,7 +281,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -270,12 +296,39 @@
             <path>
               <item name="yii22_3" type="b2602c69:ProjectViewProjectNode" />
               <item name="yii22_3" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="widgets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yii22_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii22_3" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="widgets" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yii22_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii22_3" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yii22_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii22_3" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yii22_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yii22_3" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,16 +374,18 @@
       <workItem from="1550838817594" duration="306000" />
       <workItem from="1550839350030" duration="7000" />
       <workItem from="1550839360698" duration="58000" />
+      <workItem from="1551252859992" duration="167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11567000" />
+    <option name="totallyTimeSpent" value="11734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="96" y="23" width="1511" height="1038" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33832538" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34309053" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -509,6 +564,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/task/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/task/view.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/widgets/views/my.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
         </state>
       </provider>
     </entry>
