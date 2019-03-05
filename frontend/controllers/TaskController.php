@@ -91,8 +91,14 @@ class TaskController extends Controller
     public function actionOne($id){
         $model = $this->findModel($id);
 
+       // var_dump(Yii::$app->request);
+
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['index']);
+            $this->render('one', [
+                'model' => $model,
+                'userId' => Yii::$app->user->id,
+                'channel' => 'Task_' .  $id,
+            ]);
         }
 
 

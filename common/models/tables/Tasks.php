@@ -56,6 +56,7 @@ class Tasks extends \yii\db\ActiveRecord
             [['date'], 'safe'],
             [['description'], 'string'],
             [['responsible_id'], 'integer'],
+            [['ready'], 'integer'],
             [['project_id'], 'integer'],
             [['name'], 'string', 'max' => 255],
         ];
@@ -72,7 +73,8 @@ class Tasks extends \yii\db\ActiveRecord
             'date' => 'DeadLine',
             'description' => 'Description', //Yii::t('main', 'description'),
             'responsible_id' => 'Responsible',
-            'project_id' => 'Project',
+            'project_id' => 'Project name',
+            'ready' => 'Status',
         ];
     }
 

@@ -6,46 +6,59 @@ use \yii\widgets\ActiveForm;
 
 
 /* @var $this yii\web\View */
-/* @var $model app\models\tables\Tasks */
+/* @var $model common\models\tables\Tasks */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 
 <div class="task-save">
+
     <?php $form = ActiveForm::begin(['action' => Url::to(['task/one', 'id' => $model->id])]);?>
-    <?= $form->field($model, 'name')->textInput(['maxlength' => true]) ?>
-    <?= $form->field($model, 'date')
-        ->textInput(['type' => 'date'])
-        //->widget(\yii\jui\DatePicker::class, [
-        //        'language' => 'en'
-        //]);
-    ?>
-    <?= $form->field($model, 'description')->textarea(['rows' => 6]) ?>
-    <?= $form->field($model, 'responsible_id')->dropDownList(\common\models\tables\Users::getUsersList()) ?>
-    <?= $form->field($model, 'project_id')->dropDownList(\common\models\tables\Projects::getProjectsList()) ?>
-    <?= Html::submitButton('Save') ?>
+
+    <div class = 'col col-lg-6'>
+        <?= $form->field($model, 'ready')->dropDownList([
+            '0' => 'не выполнено',
+            '1' => 'в процессе',
+            '2' => 'выполнено'
+
+        ]) ?>
+
+        <?= $form->field($model, 'name')->textInput(['maxlength' => true]) ?>
+        <?= $form->field($model, 'date')
+            ->textInput(['type' => 'date'])
+            //->widget(\yii\jui\DatePicker::class, [
+            //        'language' => 'en'
+            //]);
+        ?>
+        <?= $form->field($model, 'responsible_id')->dropDownList(\common\models\tables\Users::getUsersList()) ?>
+    </div>
+    <div class = 'col col-lg-6'>
+        <?= $form->field($model, 'project_id')->dropDownList(\common\models\tables\Projects::getProjectsList()) ?>
+        <?= $form->field($model, 'description')->textarea(['rows' => 6]) ?>
+        <?= Html::submitButton('Save') ?>
+    </div>
     <?php ActiveForm::end(); ?>
-    <br>
+
+    <div class = 'col-lg-12'>
+        <h2>Комментарии : </h2>
     <?php $form = ActiveForm::begin(['action' => Url::to(['file/index', 'id' => $model->id])]);?>
     <?= Html::submitButton('Add Comment') ?>
     <?php ActiveForm::end(); ?>
-    <br>
-    <div class="comment-history">
+
     <?php $comments = \common\models\tables\Comments::find()
         ->where(['task_id' => $model->id])
         ->all();
     ?>
 
     <?php foreach ($comments as $comment): ?>
-        <p><strong><?=\common\models\tables\Users::getUserName($comment->responsible_id)?></strong>: <?php echo $comment->description ?></p>
-
+    <p><strong><?=\common\models\tables\Users::getUserName($comment->responsible_id)?></strong>: <?php echo $comment->description ?></p>
     <?php if($comment->file_name != null){
             echo Html::img('/img/small/' . $comment->file_name, ['class' => 'img-thumbnail']);
         }
         ?>
-
         <?php endforeach; ?>
     </div>
-    <div>
+
+    <div class = 'col-lg-12'>
         <br>
         <hr>
         <form action="#" name="chat_form" id="chat_form">
