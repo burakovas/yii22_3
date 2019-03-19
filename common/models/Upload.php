@@ -23,7 +23,8 @@ class Upload extends Model
     public function rules(){
         return [
             [['comment'], 'safe'],
-            [['file'], 'file', 'extensions' => 'png, jpg']
+            [['file'], 'file', 'extensions' => 'png, jpg, jpeg']
+            //[['file'], 'file']
         ];
     }
 

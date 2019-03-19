@@ -47,14 +47,20 @@ class TaskController extends Controller
         $session->set('lang', $user->lang);
         } */
 
-        $tasks = Tasks::find()->all();
-        $searchModel = new TasksSearch();
 
-        return $this->render('index', [
-            'tasks' => $tasks,
-            'searchModel' => $searchModel,
-            'userId' => Yii::$app->user->id,
-        ]);
+
+        if(Yii::$app->user->isGuest){
+            return $this->redirect(['site/login']);
+        } else {
+            $tasks = Tasks::find()->all();
+            $searchModel = new TasksSearch();
+
+            return $this->render('index', [
+                'tasks' => $tasks,
+                'searchModel' => $searchModel,
+                'userId' => Yii::$app->user->id,
+            ]);
+        }
     }
 
     /**

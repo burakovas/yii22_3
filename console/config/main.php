@@ -25,6 +25,9 @@ return [
         'bootstrap' => [
             'class' => '\common\components\Bootstrap',
         ],
+        'authManager' => [
+            'class' => \yii\rbac\DbManager::class,
+        ],
         'log' => [
             'targets' => [
                 [

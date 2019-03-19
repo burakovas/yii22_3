@@ -36,17 +36,28 @@ AppAsset::register($this);
             'class' => 'navbar-inverse navbar-fixed-top',
         ],
     ]);
+
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
-                ['label' => 'Lang', 'items' => [
-                        ['label' => 'ru', 'url' => ['site/lang', 'lang' => 'ru']],
-                        ['label' => 'en', 'url' => ['site/lang', 'lang' => 'en']],
-]],
-            ['label' => 'All Tasks', 'url' => ['/task']],
-            ['label' => 'Tasks of User(' . Yii::$app->user->identity->username . ')', 'url' => ['/user']],
+            ['label' => 'Lang', 'items' => [
+                    ['label' => 'ru', 'url' => ['site/lang', 'lang' => 'ru']],
+                    ['label' => 'en', 'url' => ['site/lang', 'lang' => 'en']],
+                ]],
+
+            Yii::$app->user->isGuest ? (
+                ['label' => 'All Tasks', 'url' => ['/task']]
+            ) : (
+                ['label' => 'Tasks of User(' . Yii::$app->user->identity->username . ')', 'url' => ['/user']]
+            ),
+
+
+
             ['label' => 'Projects', 'url' => ['/site']],
             ['label' => 'CRUD Projects(for admin)', 'url' => ['/projects']],
+            ['label' => 'SignUp', 'url' => ['/site/signup']],
+
+
             Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/site/login']]
             ) : (

@@ -10,6 +10,7 @@ namespace common\components;
 
 
 use common\models\tables\Projects;
+use common\models\tables\Tasks;
 use common\models\tables\TelegramSubscribe;
 use yii\base\BootstrapInterface;
 use yii\base\Component;

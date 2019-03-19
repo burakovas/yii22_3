@@ -34,7 +34,7 @@ use \yii\widgets\ActiveForm;
     <div class = 'col col-lg-6'>
         <?= $form->field($model, 'project_id')->dropDownList(\common\models\tables\Projects::getProjectsList()) ?>
         <?= $form->field($model, 'description')->textarea(['rows' => 6]) ?>
-        <?= Html::submitButton('Save') ?>
+        <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>
     </div>
     <?php ActiveForm::end(); ?>
 

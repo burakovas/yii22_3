@@ -37,6 +37,11 @@ return [
                 ],
             ],
         ],
+        'authManager' => [
+            'class' => \yii\rbac\DbManager::class,
+        ],
+
+
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
@@ -44,8 +49,12 @@ return [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
-            'rules' => [
+            //'rules' => [
             //    ['class' => 'yii\rest\UrlRule', 'controller' => 'rtasks'],
+            //],
+            'rules' => [
+                '' => 'site/index',
+                '<controller:\w+>/<action:\w+>/' => '<controller>/<action>',
             ],
         ],
 
